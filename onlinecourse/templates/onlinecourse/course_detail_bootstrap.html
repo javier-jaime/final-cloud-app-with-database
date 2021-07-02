@@ -78,13 +78,13 @@
             <br>
             <center>
             <button class='btn btn-primary' data-toggle="collapse"  
-            data-target="#exam">Show/hide Exam </button></center>
+            data-target="#exam">Start Exam </button></center>
         
             <br>
             <form id="questionform" action="submit/" method="post" style='width:500px; margin:auto'>
             <div id="exam" class="collapse show ">
             <div class="card-columns-vertical" >
-                
+
                 {% for question in course.question_set.all %}
                 
                 <div class="card mt-1">
@@ -98,7 +98,7 @@
                                 <label class="form-check-label">
                                     <input type="checkbox" name="choice_{{choice.id}}"
                                            class="form-check-input" id="{{choice.id}}"
-                                           value="{{choice.id}}">{{ choice.chioce_text }}
+                                           value="{{choice.id}}">{{ choice.choice_text }}
                                 </label>
                             </div>
                               {% endfor %}
