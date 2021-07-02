@@ -55,7 +55,6 @@
             https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp-->
             
             <!--
-
             A collapse example here:
             <div id="exam" class="collapse">
                 Click to expand elements within the collapse div
@@ -79,12 +78,13 @@
             <br>
             <center>
             <button class='btn btn-primary' data-toggle="collapse"  
-            data-target="#exam">Show/hide questios </button></center>
+            data-target="#exam">Show/hide Exam </button></center>
         
             <br>
             <form id="questionform" action="submit/" method="post" style='width:500px; margin:auto'>
             <div id="exam" class="collapse show ">
             <div class="card-columns-vertical" >
+                
                 {% for question in course.question_set.all %}
                 
                 <div class="card mt-1">
