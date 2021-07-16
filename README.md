@@ -1,6 +1,6 @@
 Final Assignment: Developing Cloud Apps with Database usiing Django Framework, part of IBM Full Stack Cloud Developer Professional Certificate in Coursera
 
-Final App: https://javier-jaime.us-south.cf.appdomain.cloud/
+Final App: https://javier-jaime.github.io/final-cloud-app-with-database/
 
 **General Notes**
 
